@@ -1,0 +1,10 @@
+{
+  "endpoint": "GET https://www.blockchainiq.co/api/x402/v1/brief",
+  "amountUsd": 0.01,
+  "asset": "USDC on Base (eip155:8453)",
+  "payer": "0x3fc45A74726b3b19E485eCB6eE45F2A8A1f876DB",
+  "network": "eip155:8453",
+  "transaction": "0x6b76c9980cdb54830ab965e7fbc0b9f5d488f8be164c33d2cad207fdda2c6687",
+  "explorer": "https://basescan.org/tx/0x6b76c9980cdb54830ab965e7fbc0b9f5d488f8be164c33d2cad207fdda2c6687",
+  "settledAt": "2026-11-08T15:36:29.620Z"
+}
