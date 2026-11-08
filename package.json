@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "@langchain/core": "^0.3.0",
+    "@x402/evm": "^2.0.0",
+    "@x402/fetch": "^2.0.0",
+    "viem": "^2.0.0",
+    "zod": "^3.25.0"
+  },
+  "description": "LangChain tools for the Blockchain IQ x402 pay-per-call crypto data API. Paid tools settle in USDC on Base via x402 \u2014 no API key, the wallet is the credential.",
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": {
+    ".": "./src/tools.mjs",
+    "./client": "./src/client.mjs"
+  },
+  "keywords": [
+    "langchain",
+    "x402",
+    "blockchainiq",
+    "crypto-data",
+    "usdc",
+    "base",
+    "agent-tools"
+  ],
+  "license": "MIT",
+  "main": "src/tools.mjs",
+  "name": "blockchainiq-langchain",
+  "scripts": {
+    "demo:free": "node examples/demo-free.mjs",
+    "demo:paid": "node examples/demo-paid.mjs",
+    "test": "node --test test/tools.test.mjs"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
